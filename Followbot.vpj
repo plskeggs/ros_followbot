@@ -75,8 +75,20 @@
         <Folder Name="src">
             <Folder Name="followbot">
                 <F N="src/followbot/CMakeLists.txt"/>
+                <F N="src/followbot/course.launch"/>
+                <F N="src/followbot/course.material"/>
+                <F N="src/followbot/course.world"/>
                 <F N="src/followbot/follower.py"/>
+                <F N="src/followbot/follower_color_filter.py"/>
+                <F N="src/followbot/follower_line_finder.py"/>
+                <F N="src/followbot/follower_opencv.py"/>
+                <F N="src/followbot/follower_p.py"/>
                 <F N="src/followbot/package.xml"/>
+            </Folder>
+            <Folder Name="patrolbot">
+                <F N="src/patrolbot/CMakeLists.txt"/>
+                <F N="src/patrolbot/package.xml"/>
+                <F N="src/patrolbot/simple_fsm.py"/>
             </Folder>
             <F N="src/CMakeLists.txt"/>
         </Folder>
