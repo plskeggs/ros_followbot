@@ -86,13 +86,53 @@
                 <F N="src/followbot/package.xml"/>
             </Folder>
             <Folder Name="patrolbot">
+                <F N="src/patrolbot/better_patrol_fsm.py"/>
                 <F N="src/patrolbot/CMakeLists.txt"/>
                 <F N="src/patrolbot/package.xml"/>
+                <F N="src/patrolbot/patrol_fsm.py"/>
+                <F N="src/patrolbot/shapes.py"/>
+                <F N="src/patrolbot/shapes2.py"/>
                 <F N="src/patrolbot/simple_fsm.py"/>
+            </Folder>
+            <Folder Name="stockroombot">
+                <Folder Name="models">
+                    <Folder Name="bin">
+                        <Folder Name="tags">
+                            <F N="src/stockroombot/models/bin/tags/generate_codes_and_materials.py"/>
+                            <F N="src/stockroombot/models/bin/tags/product_0.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_1.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_10.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_11.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_2.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_3.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_4.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_5.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_6.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_7.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_8.material"/>
+                            <F N="src/stockroombot/models/bin/tags/product_9.material"/>
+                        </Folder>
+                        <F N="src/stockroombot/models/bin/model.config"/>
+                        <F N="src/stockroombot/models/bin/model.sdf"/>
+                    </Folder>
+                    <Folder Name="product_0">
+                        <F N="src/stockroombot/models/product_0/model.config"/>
+                        <F N="src/stockroombot/models/product_0/model.sdf"/>
+                    </Folder>
+                </Folder>
+                <Folder Name="worlds">
+                    <F N="src/stockroombot/worlds/aisle.world"/>
+                    <F N="src/stockroombot/worlds/aisle.world.em"/>
+                    <F N="src/stockroombot/worlds/stockroom.launch"/>
+                </Folder>
+                <F N="src/stockroombot/CMakeLists.txt"/>
+                <F N="src/stockroombot/package.xml"/>
+                <F N="src/stockroombot/stock_products.py"/>
             </Folder>
             <F N="src/CMakeLists.txt"/>
         </Folder>
         <F N=".catkin_workspace"/>
         <F N="Followbot.vpj"/>
+        <F N="README.md"/>
     </Files>
 </Project>
